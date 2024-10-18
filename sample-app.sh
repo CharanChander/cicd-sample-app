@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-mkdir -p tempdir
+mkdir -p tempdir # Create a temporary directory if it doesn't exist
 mkdir -p tempdir/templates
 mkdir -p tempdir/static
 
